@@ -3,7 +3,7 @@
 
 To support product conceputal design, We implemented StepIdeator, which supports mixed representation within an environment that includes design briefs, sketches, models, and renderings . This AI-based system is designed to provide specific inspiration, make design concepts tangible, and facilitate effortless navigation among different representations. 
 
-<img src="md-main.png" width="300px">
+<img src="md-main.png">
 
 
 ## Installation
@@ -39,7 +39,7 @@ To install `StepIdeator`, follow these steps:
     ```
 7. Open the application in your browser.
 
-    <img src="md-webpage-stepideator.png" width="300px">
+    <img src="md-webpage-stepideator.png">
 
 ## License
 
