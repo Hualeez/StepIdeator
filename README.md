@@ -12,7 +12,7 @@ To install `StepIdeator`, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone URL_ADDRESS
+    git clone https://github.com/Hualeez/StepIdeator.git
     ```
 2. Install dependencies of Python:
     - Enter the `StepIdeator-API` directory:
