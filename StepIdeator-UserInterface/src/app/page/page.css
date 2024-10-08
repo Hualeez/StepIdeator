@@ -1,0 +1,142 @@
+@keyframes blindsEffect {
+    0% {
+        clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+    }
+    25% {
+        clip-path: polygon(0% 0%, 25% 0%, 25% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%);
+    }
+    75% {
+        clip-path: polygon(0% 0%, 75% 0%, 75% 100%, 0% 100%);
+    }
+    100% {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+.alert-animation {
+    animation: 0.5s blindsEffect forwards;
+}
+
+.my-slider .ant-slider-handle::before {
+    width: 10px;
+    height: 10px;
+}
+
+.my-slider .ant-slider-handle::after {
+    width: 10px;
+    height: 10px;
+    border: none;
+    box-shadow: none;
+    background-color: #444444;
+}
+
+.my-slider .ant-slider-handle:focus:after {
+    width: 10px;
+    height: 10px;
+    border: none;
+    box-shadow: none;
+    background-color: #444444;
+}
+
+.my-slider .ant-slider-handle:hover:after {
+    width: 10px;
+    height: 10px;
+    border: none;
+    box-shadow: none;
+    background-color: #444444;
+}
+
+.my-multiple-select .ant-select-selector {
+    border-color: #444444;
+}
+
+.my-design-text-textarea .ant-input {
+    border: 1px dashed #8F949B !important;
+    border-radius: unset;
+
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.my-design-text-textarea {
+    border: 1px dashed #8F949B !important;
+    border-radius: unset !important;
+}
+
+.design-text {
+    font-size: 16px !important;
+    font-style: normal;
+    color:black;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    word-break: break-word;
+}
+/*.my-design-text-textarea .ant-input-affix-wrapper {*/
+/*    !*border: 1px dashed #8F949B*!*/
+/*}*/
+
+.color-picker-input {
+    width: 32px; /* 与其他图标的宽度一致 */
+    height: 32px; /* 与其他图标的高度一致 */
+    border: none; /* 移除默认边框 */
+    background: none; /* 移除默认背景 */
+    cursor: pointer; /* 鼠标悬停时显示指针，提高用户体验 */
+    padding: 0; /* 移除默认内边距 */
+    -webkit-appearance: none; /* 针对 WebKit 浏览器去除默认样式 */
+    appearance: none; /* 标准方式去除默认样式 */
+}
+
+.customButton {
+    width: 80px !important;
+    height: 78px !important;
+    flex-shrink: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 14px 0 !important;
+    gap: 5px !important; /* 调整图标和文本之间的间距 */
+    background-color: #FFFFFF !important; /* 按钮背景色 */
+    border: 1px solid rgba(217, 217, 217, 1)!important; /* 按钮边框颜色 */
+    border-radius: 10px !important; /* 按钮圆角 */
+  }
+  
+  .customButton svg {
+    width: 33px !important;
+    height: 33px !important;
+    flex-shrink: 0 !important;
+  }
+  
+  .customButton .buttonText {
+    color: rgba(68, 68, 68, 1);
+    font-family: "PingFang HK", sans-serif !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    text-transform: capitalize !important;
+    text-align: center !important;
+  }
+  
+  .customButton.active {
+    border-color: var(--primary-color)!important;
+    background: var(--primary-background)!important;
+  }
+
+  :root {
+    --DB-color: #0061DF; 
+    --S-color:#0061DF;
+    --MI-color:#0061DF;
+    --R-color:#0061DF;
+    --DB-background: #E6EFFC; 
+    --S-background:#E6EFFC;
+    --MI-background:#E6EFFC;
+    --R-background:#E6EFFC;
+    --primary-color:#0061DF;
+    --primary-background:#E6EFFC;
+  }
